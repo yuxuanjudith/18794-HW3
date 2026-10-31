@@ -1,0 +1,319 @@
+
+COMMAND: C:\Users\Administrator\Desktop\课程\hw3\.venv\Scripts\python.exe -u main.py --amp --channels_last --workers 2 --backbone_weights v2 --lr 0.02 --loss_type cross_entropy --exp_name deeplabv3plus_resnet50_cross_entropy
+Device: cuda; train=1464, val=1449; iterations/epoch=183
+Skipped overflow update; scaler reduced
+Skipped overflow update; scaler reduced
+Epoch 1, Itrs 25/5000, Loss=1.72309, 1.612s/iter, peak=3.57 GiB
+Epoch 1, Itrs 50/5000, Loss=1.41379, 1.170s/iter, peak=3.57 GiB
+Epoch 1, Itrs 75/5000, Loss=1.25529, 1.020s/iter, peak=3.57 GiB
+Epoch 1, Itrs 100/5000, Loss=1.13841, 0.946s/iter, peak=3.57 GiB
+Epoch 1, Itrs 125/5000, Loss=1.04678, 0.902s/iter, peak=3.57 GiB
+Epoch 1, Itrs 150/5000, Loss=0.98473, 0.873s/iter, peak=3.57 GiB
+Epoch 1, Itrs 175/5000, Loss=0.93086, 0.850s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 1: val mIoU=0.447259, acc=0.858051, best=0.447259, validation=28.6s
+Epoch 2, Itrs 200/5000, Loss=0.50419, 1.107s/iter, peak=3.57 GiB
+Epoch 2, Itrs 225/5000, Loss=0.50109, 0.891s/iter, peak=3.57 GiB
+Epoch 2, Itrs 250/5000, Loss=0.51989, 0.827s/iter, peak=3.57 GiB
+Epoch 2, Itrs 275/5000, Loss=0.52310, 0.800s/iter, peak=3.57 GiB
+Epoch 2, Itrs 300/5000, Loss=0.52241, 0.787s/iter, peak=3.57 GiB
+Epoch 2, Itrs 325/5000, Loss=0.53405, 0.775s/iter, peak=3.57 GiB
+Epoch 2, Itrs 350/5000, Loss=0.54473, 0.767s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 2: val mIoU=0.461696, acc=0.834079, best=0.461696, validation=20.1s
+Epoch 3, Itrs 375/5000, Loss=0.45573, 1.335s/iter, peak=3.57 GiB
+Epoch 3, Itrs 400/5000, Loss=0.44532, 0.903s/iter, peak=3.57 GiB
+Epoch 3, Itrs 425/5000, Loss=0.42028, 0.815s/iter, peak=3.57 GiB
+Epoch 3, Itrs 450/5000, Loss=0.40330, 0.777s/iter, peak=3.57 GiB
+Epoch 3, Itrs 475/5000, Loss=0.39562, 0.756s/iter, peak=3.57 GiB
+Epoch 3, Itrs 500/5000, Loss=0.40071, 0.744s/iter, peak=3.57 GiB
+Epoch 3, Itrs 525/5000, Loss=0.40086, 0.735s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 3: val mIoU=0.585025, acc=0.881483, best=0.585025, validation=19.7s
+Epoch 4, Itrs 550/5000, Loss=0.38219, 2.792s/iter, peak=3.57 GiB
+Epoch 4, Itrs 575/5000, Loss=0.31192, 0.915s/iter, peak=3.57 GiB
+Epoch 4, Itrs 600/5000, Loss=0.34300, 0.809s/iter, peak=3.57 GiB
+Epoch 4, Itrs 625/5000, Loss=0.33830, 0.779s/iter, peak=3.57 GiB
+Epoch 4, Itrs 650/5000, Loss=0.33959, 0.763s/iter, peak=3.57 GiB
+Epoch 4, Itrs 675/5000, Loss=0.33668, 0.756s/iter, peak=3.57 GiB
+Epoch 4, Itrs 700/5000, Loss=0.32730, 0.746s/iter, peak=3.57 GiB
+Epoch 4, Itrs 725/5000, Loss=0.33748, 0.737s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 4: val mIoU=0.576885, acc=0.876187, best=0.585025, validation=19.0s
+Epoch 5, Itrs 750/5000, Loss=0.34350, 0.982s/iter, peak=3.57 GiB
+Epoch 5, Itrs 775/5000, Loss=0.30811, 0.835s/iter, peak=3.57 GiB
+Epoch 5, Itrs 800/5000, Loss=0.32236, 0.804s/iter, peak=3.57 GiB
+Epoch 5, Itrs 825/5000, Loss=0.32446, 0.783s/iter, peak=3.57 GiB
+Epoch 5, Itrs 850/5000, Loss=0.31763, 0.770s/iter, peak=3.57 GiB
+Epoch 5, Itrs 875/5000, Loss=0.32065, 0.761s/iter, peak=3.57 GiB
+Epoch 5, Itrs 900/5000, Loss=0.31027, 0.755s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 5: val mIoU=0.597390, acc=0.873209, best=0.597390, validation=22.9s
+Epoch 6, Itrs 925/5000, Loss=0.28165, 1.367s/iter, peak=3.57 GiB
+Epoch 6, Itrs 950/5000, Loss=0.27258, 0.931s/iter, peak=3.57 GiB
+Epoch 6, Itrs 975/5000, Loss=0.26975, 0.847s/iter, peak=3.57 GiB
+Epoch 6, Itrs 1000/5000, Loss=0.27424, 0.816s/iter, peak=3.57 GiB
+Epoch 6, Itrs 1025/5000, Loss=0.27797, 0.794s/iter, peak=3.57 GiB
+Epoch 6, Itrs 1050/5000, Loss=0.27086, 0.780s/iter, peak=3.57 GiB
+Epoch 6, Itrs 1075/5000, Loss=0.27069, 0.771s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 6: val mIoU=0.639796, acc=0.903882, best=0.639796, validation=18.9s
+Epoch 7, Itrs 1100/5000, Loss=0.16637, 2.419s/iter, peak=3.57 GiB
+Epoch 7, Itrs 1125/5000, Loss=0.18830, 0.993s/iter, peak=3.57 GiB
+Epoch 7, Itrs 1150/5000, Loss=0.19996, 0.885s/iter, peak=3.57 GiB
+Epoch 7, Itrs 1175/5000, Loss=0.21386, 0.847s/iter, peak=3.57 GiB
+Epoch 7, Itrs 1200/5000, Loss=0.21105, 0.827s/iter, peak=3.57 GiB
+Epoch 7, Itrs 1225/5000, Loss=0.21310, 0.813s/iter, peak=3.57 GiB
+Epoch 7, Itrs 1250/5000, Loss=0.21292, 0.804s/iter, peak=3.57 GiB
+Epoch 7, Itrs 1275/5000, Loss=0.22092, 0.797s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 7: val mIoU=0.648395, acc=0.907007, best=0.648395, validation=20.8s
+Epoch 8, Itrs 1300/5000, Loss=0.20223, 1.110s/iter, peak=3.57 GiB
+Epoch 8, Itrs 1325/5000, Loss=0.21703, 0.922s/iter, peak=3.57 GiB
+Epoch 8, Itrs 1350/5000, Loss=0.21411, 0.867s/iter, peak=3.57 GiB
+Epoch 8, Itrs 1375/5000, Loss=0.20943, 0.840s/iter, peak=3.57 GiB
+Epoch 8, Itrs 1400/5000, Loss=0.21894, 0.826s/iter, peak=3.57 GiB
+Epoch 8, Itrs 1425/5000, Loss=0.21962, 0.815s/iter, peak=3.57 GiB
+Epoch 8, Itrs 1450/5000, Loss=0.22186, 0.807s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 8: val mIoU=0.646680, acc=0.906730, best=0.648395, validation=21.2s
+Epoch 9, Itrs 1475/5000, Loss=0.19587, 1.344s/iter, peak=3.57 GiB
+Epoch 9, Itrs 1500/5000, Loss=0.18739, 0.958s/iter, peak=3.57 GiB
+Epoch 9, Itrs 1525/5000, Loss=0.18833, 0.880s/iter, peak=3.57 GiB
+Epoch 9, Itrs 1550/5000, Loss=0.19837, 0.843s/iter, peak=3.57 GiB
+Epoch 9, Itrs 1575/5000, Loss=0.20349, 0.824s/iter, peak=3.57 GiB
+Epoch 9, Itrs 1600/5000, Loss=0.20371, 0.813s/iter, peak=3.57 GiB
+Epoch 9, Itrs 1625/5000, Loss=0.20177, 0.806s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 9: val mIoU=0.651156, acc=0.908066, best=0.651156, validation=20.7s
+Epoch 10, Itrs 1650/5000, Loss=0.21550, 2.227s/iter, peak=3.57 GiB
+Epoch 10, Itrs 1675/5000, Loss=0.22189, 1.002s/iter, peak=3.57 GiB
+Epoch 10, Itrs 1700/5000, Loss=0.21309, 0.890s/iter, peak=3.57 GiB
+Epoch 10, Itrs 1725/5000, Loss=0.20265, 0.849s/iter, peak=3.57 GiB
+Epoch 10, Itrs 1750/5000, Loss=0.20043, 0.829s/iter, peak=3.57 GiB
+Epoch 10, Itrs 1775/5000, Loss=0.20927, 0.815s/iter, peak=3.57 GiB
+Epoch 10, Itrs 1800/5000, Loss=0.21389, 0.806s/iter, peak=3.57 GiB
+Epoch 10, Itrs 1825/5000, Loss=0.21047, 0.799s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 10: val mIoU=0.658389, acc=0.910843, best=0.658389, validation=21.7s
+Epoch 11, Itrs 1850/5000, Loss=0.19470, 1.091s/iter, peak=3.57 GiB
+Epoch 11, Itrs 1875/5000, Loss=0.20852, 0.918s/iter, peak=3.57 GiB
+Epoch 11, Itrs 1900/5000, Loss=0.19833, 0.861s/iter, peak=3.57 GiB
+Epoch 11, Itrs 1925/5000, Loss=0.20596, 0.834s/iter, peak=3.57 GiB
+Epoch 11, Itrs 1950/5000, Loss=0.21144, 0.817s/iter, peak=3.57 GiB
+Epoch 11, Itrs 1975/5000, Loss=0.20951, 0.807s/iter, peak=3.57 GiB
+Epoch 11, Itrs 2000/5000, Loss=0.21032, 0.799s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 11: val mIoU=0.652969, acc=0.908505, best=0.658389, validation=20.9s
+Epoch 12, Itrs 2025/5000, Loss=0.19307, 1.275s/iter, peak=3.57 GiB
+Epoch 12, Itrs 2050/5000, Loss=0.19039, 0.941s/iter, peak=3.57 GiB
+Epoch 12, Itrs 2075/5000, Loss=0.18229, 0.867s/iter, peak=3.57 GiB
+Epoch 12, Itrs 2100/5000, Loss=0.18711, 0.835s/iter, peak=3.57 GiB
+Epoch 12, Itrs 2125/5000, Loss=0.18999, 0.817s/iter, peak=3.57 GiB
+Epoch 12, Itrs 2150/5000, Loss=0.19043, 0.805s/iter, peak=3.57 GiB
+Epoch 12, Itrs 2175/5000, Loss=0.19004, 0.797s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 12: val mIoU=0.651604, acc=0.908236, best=0.658389, validation=21.4s
+Epoch 13, Itrs 2200/5000, Loss=0.25009, 2.153s/iter, peak=3.57 GiB
+Epoch 13, Itrs 2225/5000, Loss=0.20264, 1.024s/iter, peak=3.57 GiB
+Skipped overflow update; scaler reduced
+Epoch 13, Itrs 2250/5000, Loss=0.19900, 0.917s/iter, peak=3.57 GiB
+Epoch 13, Itrs 2275/5000, Loss=0.20054, 0.866s/iter, peak=3.57 GiB
+Epoch 13, Itrs 2300/5000, Loss=0.19491, 0.839s/iter, peak=3.57 GiB
+Epoch 13, Itrs 2325/5000, Loss=0.19272, 0.822s/iter, peak=3.57 GiB
+Epoch 13, Itrs 2350/5000, Loss=0.19393, 0.811s/iter, peak=3.57 GiB
+Epoch 13, Itrs 2375/5000, Loss=0.19206, 0.803s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 13: val mIoU=0.659621, acc=0.911766, best=0.659621, validation=20.5s
+Epoch 14, Itrs 2400/5000, Loss=0.16943, 1.061s/iter, peak=3.57 GiB
+Epoch 14, Itrs 2425/5000, Loss=0.18360, 0.903s/iter, peak=3.57 GiB
+Epoch 14, Itrs 2450/5000, Loss=0.18637, 0.852s/iter, peak=3.57 GiB
+Epoch 14, Itrs 2475/5000, Loss=0.18858, 0.827s/iter, peak=3.57 GiB
+Epoch 14, Itrs 2500/5000, Loss=0.19189, 0.812s/iter, peak=3.57 GiB
+Epoch 14, Itrs 2525/5000, Loss=0.19585, 0.802s/iter, peak=3.57 GiB
+Epoch 14, Itrs 2550/5000, Loss=0.19656, 0.795s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 14: val mIoU=0.659341, acc=0.911340, best=0.659621, validation=20.6s
+Epoch 15, Itrs 2575/5000, Loss=0.17554, 1.200s/iter, peak=3.57 GiB
+Epoch 15, Itrs 2600/5000, Loss=0.17857, 0.927s/iter, peak=3.57 GiB
+Epoch 15, Itrs 2625/5000, Loss=0.18126, 0.860s/iter, peak=3.57 GiB
+Epoch 15, Itrs 2650/5000, Loss=0.18181, 0.831s/iter, peak=3.57 GiB
+Epoch 15, Itrs 2675/5000, Loss=0.18136, 0.814s/iter, peak=3.57 GiB
+Epoch 15, Itrs 2700/5000, Loss=0.18264, 0.803s/iter, peak=3.57 GiB
+Epoch 15, Itrs 2725/5000, Loss=0.18479, 0.795s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 15: val mIoU=0.655838, acc=0.910235, best=0.659621, validation=20.8s
+Epoch 16, Itrs 2750/5000, Loss=0.19126, 1.692s/iter, peak=3.57 GiB
+Epoch 16, Itrs 2775/5000, Loss=0.21247, 0.980s/iter, peak=3.57 GiB
+Epoch 16, Itrs 2800/5000, Loss=0.21795, 0.882s/iter, peak=3.57 GiB
+Epoch 16, Itrs 2825/5000, Loss=0.20585, 0.844s/iter, peak=3.57 GiB
+Epoch 16, Itrs 2850/5000, Loss=0.20250, 0.824s/iter, peak=3.57 GiB
+Epoch 16, Itrs 2875/5000, Loss=0.20144, 0.810s/iter, peak=3.57 GiB
+Epoch 16, Itrs 2900/5000, Loss=0.19996, 0.801s/iter, peak=3.57 GiB
+Epoch 16, Itrs 2925/5000, Loss=0.19736, 0.794s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 16: val mIoU=0.657172, acc=0.910272, best=0.659621, validation=20.7s
+Epoch 17, Itrs 2950/5000, Loss=0.17436, 1.039s/iter, peak=3.57 GiB
+Epoch 17, Itrs 2975/5000, Loss=0.18447, 0.895s/iter, peak=3.57 GiB
+Epoch 17, Itrs 3000/5000, Loss=0.18325, 0.847s/iter, peak=3.57 GiB
+Epoch 17, Itrs 3025/5000, Loss=0.18489, 0.823s/iter, peak=3.57 GiB
+Epoch 17, Itrs 3050/5000, Loss=0.18280, 0.809s/iter, peak=3.57 GiB
+Epoch 17, Itrs 3075/5000, Loss=0.18429, 0.800s/iter, peak=3.57 GiB
+Epoch 17, Itrs 3100/5000, Loss=0.18426, 0.793s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 17: val mIoU=0.657985, acc=0.910574, best=0.659621, validation=20.9s
+Epoch 18, Itrs 3125/5000, Loss=0.16153, 1.178s/iter, peak=3.57 GiB
+Epoch 18, Itrs 3150/5000, Loss=0.18497, 0.925s/iter, peak=3.57 GiB
+Epoch 18, Itrs 3175/5000, Loss=0.18523, 0.861s/iter, peak=3.57 GiB
+Epoch 18, Itrs 3200/5000, Loss=0.18658, 0.832s/iter, peak=3.57 GiB
+Epoch 18, Itrs 3225/5000, Loss=0.18914, 0.815s/iter, peak=3.57 GiB
+Epoch 18, Itrs 3250/5000, Loss=0.18777, 0.804s/iter, peak=3.57 GiB
+Epoch 18, Itrs 3275/5000, Loss=0.18643, 0.796s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 18: val mIoU=0.658296, acc=0.911083, best=0.659621, validation=20.8s
+Epoch 19, Itrs 3300/5000, Loss=0.21265, 1.551s/iter, peak=3.57 GiB
+Epoch 19, Itrs 3325/5000, Loss=0.18679, 0.966s/iter, peak=3.57 GiB
+Epoch 19, Itrs 3350/5000, Loss=0.18379, 0.880s/iter, peak=3.57 GiB
+Epoch 19, Itrs 3375/5000, Loss=0.19041, 0.843s/iter, peak=3.57 GiB
+Epoch 19, Itrs 3400/5000, Loss=0.18837, 0.823s/iter, peak=3.57 GiB
+Epoch 19, Itrs 3425/5000, Loss=0.19293, 0.811s/iter, peak=3.57 GiB
+Epoch 19, Itrs 3450/5000, Loss=0.19193, 0.802s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 19: val mIoU=0.664498, acc=0.913907, best=0.664498, validation=20.6s
+Epoch 20, Itrs 3475/5000, Loss=0.21623, 7.963s/iter, peak=3.57 GiB
+Epoch 20, Itrs 3500/5000, Loss=0.20045, 1.029s/iter, peak=3.57 GiB
+Epoch 20, Itrs 3525/5000, Loss=0.19100, 0.893s/iter, peak=3.57 GiB
+Epoch 20, Itrs 3550/5000, Loss=0.18807, 0.847s/iter, peak=3.57 GiB
+Epoch 20, Itrs 3575/5000, Loss=0.19189, 0.824s/iter, peak=3.57 GiB
+Epoch 20, Itrs 3600/5000, Loss=0.19275, 0.811s/iter, peak=3.57 GiB
+Epoch 20, Itrs 3625/5000, Loss=0.19470, 0.801s/iter, peak=3.57 GiB
+Epoch 20, Itrs 3650/5000, Loss=0.19545, 0.794s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 20: val mIoU=0.661824, acc=0.912465, best=0.664498, validation=20.8s
+Epoch 21, Itrs 3675/5000, Loss=0.21081, 1.151s/iter, peak=3.57 GiB
+Epoch 21, Itrs 3700/5000, Loss=0.18554, 0.919s/iter, peak=3.57 GiB
+Epoch 21, Itrs 3725/5000, Loss=0.19080, 0.861s/iter, peak=3.57 GiB
+Epoch 21, Itrs 3750/5000, Loss=0.20050, 0.840s/iter, peak=3.57 GiB
+Epoch 21, Itrs 3775/5000, Loss=0.19602, 0.825s/iter, peak=3.57 GiB
+Epoch 21, Itrs 3800/5000, Loss=0.19456, 0.813s/iter, peak=3.57 GiB
+Epoch 21, Itrs 3825/5000, Loss=0.19029, 0.806s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 21: val mIoU=0.656113, acc=0.909641, best=0.664498, validation=22.0s
+Epoch 22, Itrs 3850/5000, Loss=0.20563, 1.626s/iter, peak=3.57 GiB
+Epoch 22, Itrs 3875/5000, Loss=0.17962, 1.003s/iter, peak=3.57 GiB
+Epoch 22, Itrs 3900/5000, Loss=0.18416, 0.899s/iter, peak=3.57 GiB
+Epoch 22, Itrs 3925/5000, Loss=0.18071, 0.855s/iter, peak=3.57 GiB
+Epoch 22, Itrs 3950/5000, Loss=0.18234, 0.832s/iter, peak=3.57 GiB
+Epoch 22, Itrs 3975/5000, Loss=0.18450, 0.817s/iter, peak=3.57 GiB
+Epoch 22, Itrs 4000/5000, Loss=0.18793, 0.807s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 22: val mIoU=0.656395, acc=0.909303, best=0.664498, validation=20.8s
+Epoch 23, Itrs 4025/5000, Loss=0.21658, 4.331s/iter, peak=3.57 GiB
+Epoch 23, Itrs 4050/5000, Loss=0.18849, 1.019s/iter, peak=3.57 GiB
+Epoch 23, Itrs 4075/5000, Loss=0.18169, 0.891s/iter, peak=3.57 GiB
+Epoch 23, Itrs 4100/5000, Loss=0.19567, 0.846s/iter, peak=3.57 GiB
+Epoch 23, Itrs 4125/5000, Loss=0.19553, 0.823s/iter, peak=3.57 GiB
+Epoch 23, Itrs 4150/5000, Loss=0.19610, 0.809s/iter, peak=3.57 GiB
+Epoch 23, Itrs 4175/5000, Loss=0.19407, 0.800s/iter, peak=3.57 GiB
+Epoch 23, Itrs 4200/5000, Loss=0.19480, 0.793s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 23: val mIoU=0.659303, acc=0.911157, best=0.664498, validation=20.9s
+Epoch 24, Itrs 4225/5000, Loss=0.18488, 1.128s/iter, peak=3.57 GiB
+Epoch 24, Itrs 4250/5000, Loss=0.19374, 0.915s/iter, peak=3.57 GiB
+Epoch 24, Itrs 4275/5000, Loss=0.19390, 0.856s/iter, peak=3.57 GiB
+Epoch 24, Itrs 4300/5000, Loss=0.19273, 0.828s/iter, peak=3.57 GiB
+Epoch 24, Itrs 4325/5000, Loss=0.19346, 0.812s/iter, peak=3.57 GiB
+Epoch 24, Itrs 4350/5000, Loss=0.19695, 0.803s/iter, peak=3.57 GiB
+Epoch 24, Itrs 4375/5000, Loss=0.19666, 0.796s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 24: val mIoU=0.657893, acc=0.910031, best=0.664498, validation=21.0s
+Epoch 25, Itrs 4400/5000, Loss=0.17736, 1.411s/iter, peak=3.57 GiB
+Epoch 25, Itrs 4425/5000, Loss=0.19051, 0.958s/iter, peak=3.57 GiB
+Epoch 25, Itrs 4450/5000, Loss=0.18462, 0.874s/iter, peak=3.57 GiB
+Epoch 25, Itrs 4475/5000, Loss=0.18273, 0.840s/iter, peak=3.57 GiB
+Epoch 25, Itrs 4500/5000, Loss=0.18561, 0.820s/iter, peak=3.57 GiB
+Epoch 25, Itrs 4525/5000, Loss=0.18496, 0.808s/iter, peak=3.57 GiB
+Epoch 25, Itrs 4550/5000, Loss=0.18463, 0.799s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 25: val mIoU=0.665768, acc=0.914292, best=0.665768, validation=20.9s
+Epoch 26, Itrs 4575/5000, Loss=0.18437, 3.185s/iter, peak=3.57 GiB
+Epoch 26, Itrs 4600/5000, Loss=0.17441, 1.013s/iter, peak=3.57 GiB
+Epoch 26, Itrs 4625/5000, Loss=0.20088, 0.888s/iter, peak=3.57 GiB
+Epoch 26, Itrs 4650/5000, Loss=0.19080, 0.843s/iter, peak=3.57 GiB
+Epoch 26, Itrs 4675/5000, Loss=0.18532, 0.811s/iter, peak=3.57 GiB
+Epoch 26, Itrs 4700/5000, Loss=0.18715, 0.786s/iter, peak=3.57 GiB
+Epoch 26, Itrs 4725/5000, Loss=0.18616, 0.769s/iter, peak=3.57 GiB
+Epoch 26, Itrs 4750/5000, Loss=0.18829, 0.758s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 26: val mIoU=0.658708, acc=0.910894, best=0.665768, validation=21.8s
+Epoch 27, Itrs 4775/5000, Loss=0.19127, 1.115s/iter, peak=3.57 GiB
+Epoch 27, Itrs 4800/5000, Loss=0.19476, 0.906s/iter, peak=3.57 GiB
+Epoch 27, Itrs 4825/5000, Loss=0.19225, 0.847s/iter, peak=3.57 GiB
+Epoch 27, Itrs 4850/5000, Loss=0.18932, 0.819s/iter, peak=3.57 GiB
+Epoch 27, Itrs 4875/5000, Loss=0.18643, 0.802s/iter, peak=3.57 GiB
+Epoch 27, Itrs 4900/5000, Loss=0.18513, 0.792s/iter, peak=3.57 GiB
+Epoch 27, Itrs 4925/5000, Loss=0.18832, 0.784s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 27: val mIoU=0.657407, acc=0.910724, best=0.665768, validation=22.4s
+Epoch 28, Itrs 4950/5000, Loss=0.17363, 1.369s/iter, peak=3.57 GiB
+Epoch 28, Itrs 4975/5000, Loss=0.17524, 0.915s/iter, peak=3.57 GiB
+Epoch 28, Itrs 5000/5000, Loss=0.17878, 0.821s/iter, peak=3.57 GiB
+Validation 400/1449 images
+Validation 800/1449 images
+Validation 1200/1449 images
+Epoch 28: val mIoU=0.660685, acc=0.911922, best=0.665768, validation=21.0s
+Training finished: 5000 optimizer steps; best mIoU=0.665768; wall time=76.1 min
